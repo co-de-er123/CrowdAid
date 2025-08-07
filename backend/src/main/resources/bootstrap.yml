@@ -1,0 +1,71 @@
+# Bootstrap configuration for application startup
+spring:
+  application:
+    name: crowdaid-backend
+  
+  # Cloud Config (if using Spring Cloud Config Server)
+  # cloud:
+  #   config:
+  #     uri: ${SPRING_CONFIG_URI:http://localhost:8888}
+  #     fail-fast: true
+  #     retry:
+  #       initial-interval: 2000
+  #       max-interval: 5000
+  #       max-attempts: 6
+  #       multiplier: 1.5
+  
+  # Profile-specific configuration
+  profiles:
+    active: @spring.profiles.active@
+    
+  # Configuration for logging before application.properties is loaded
+  cloud:
+    bootstrap:
+      enabled: true
+  
+  # Application configuration that needs to be loaded early
+  config:
+    import: optional:configserver:/
+    
+  # Logging configuration for startup
+  logging:
+    level:
+      org.springframework.cloud: INFO
+      org.springframework.boot: INFO
+
+# Configuration for Spring Boot Admin (if enabled)
+# spring.boot.admin.client:
+#   url: http://localhost:8080
+#   instance:
+#     prefer-ip: true
+#     metadata:
+#       user.name: ${spring.security.user.name}
+#       user.password: ${spring.security.user.password}
+
+# Configuration for Spring Cloud Kubernetes (if applicable)
+# spring.cloud.kubernetes:
+#   reload:
+#     enabled: true
+#     mode: polling
+#     period: 15000
+#   config:
+#     sources:
+#       - name: ${spring.application.name}
+#     namespace: default
+#   secrets:
+#     enableApi: true
+#     namespace: default
+#     sources:
+#       - name: ${spring.application.name}-secrets
+
+# Configuration for Spring Cloud Vault (if applicable)
+# spring.cloud.vault:
+#   host: localhost
+#   port: 8200
+#   scheme: http
+#   authentication: TOKEN
+#   token: 00000000-0000-0000-0000-000000000000
+#   kv:
+#     enabled: true
+#     backend: secret
+#     profile-separator: '/'
