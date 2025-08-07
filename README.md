@@ -29,7 +29,6 @@
 - [Code of Conduct](#-code-of-conduct)
 - [License](#-license)
 - [Acknowledgments](#-acknowledgments)
-- [Contact](#-contact)
 
 ## 🌟 Overview
 
