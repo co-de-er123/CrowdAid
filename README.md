@@ -676,32 +676,9 @@ We would like to thank the following open-source projects and communities that m
 - The open-source community for their invaluable tools and libraries
 - Early adopters and beta testers for their feedback
 
-## 📧 Contact
-
-### Core Team
-- **Project Lead**: [Your Name] - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
-- **Backend Lead**: [Team Member Name] - team.member@example.com
-- **Frontend Lead**: [Team Member Name] - frontend@example.com
-- **DevOps Lead**: [Team Member Name] - devops@example.com
-
-### Community
-- **GitHub Issues**: [https://github.com/yourusername/crowdaid/issues](https://github.com/yourusername/crowdaid/issues)
-- **Discussion Forum**: [https://github.com/yourusername/crowdaid/discussions](https://github.com/yourusername/crowdaid/discussions)
-- **Twitter**: [@CrowdAidApp](https://twitter.com/CrowdAidApp) (example)
-- **Slack**: [Join our Slack community](https://join.slack.com/t/crowdaid/...) (example)
 
 ## 🌟 Show Your Support
 
-If you find this project useful, please consider giving it a ⭐️ on [GitHub](https://github.com/yourusername/crowdaid) and sharing it with others who might benefit from it.
+If you find this project useful, please consider giving it a ⭐️ on [GitHub](https://github.com/co-de-er123/CrowdAid) and sharing it with others who might benefit from it.
 
-## 🤝 Contributing Organizations
 
-[![Organization 1](https://via.placeholder.com/200x100?text=Organization+1)](https://example.com)
-[![Organization 2](https://via.placeholder.com/200x100?text=Organization+2)](https://example.com)
-[![Organization 3](https://via.placeholder.com/200x100?text=Organization+3)](https://example.com)
-
-## 📖 Related Projects
-
-- [CrowdAid Mobile App](https://github.com/yourusername/crowdaid-mobile) - Native mobile applications for iOS and Android
-- [CrowdAid Admin](https://github.com/yourusername/crowdaid-admin) - Administrative dashboard for managing the platform
-- [CrowdAid API](https://github.com/yourusername/crowdaid-api) - Public API documentation and client libraries
